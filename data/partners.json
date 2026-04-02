@@ -2,15 +2,15 @@
   "partners": [
     {
       "name": "Laudrup Vin",
-      "type": "Wine Importer",
-      "description": "Family-owned Danish importer specializing in artisanal European wines. Our most frequent tasting partner.",
+      "type": "Wine Importer and Online Store",
+      "description": "Family-owned Danish importer specializing in artisanal wines",
       "logo": "images/partner-laudrup.png",
       "website": "https://laudrupvin.dk"
     },
     {
       "name": "Otto Suenson",
-      "type": "Wine Merchant",
-      "description": "One of Copenhagen's oldest wine merchants, offering a curated selection of fine wines since 1863.",
+      "type": "Wine Importer & Retailer",
+      "description": "One of Copenhagen's oldest wine merchants, offering a curated selection of fine wines since 1880.",
       "logo": "images/partner-suenson.png",
       "website": "https://ottosuenson.dk"
     },
@@ -24,7 +24,7 @@
     {
       "name": "Copenhagen Business School",
       "type": "Venue Partner",
-      "description": "CBS provides us with free auditorium access for all our tasting events on campus.",
+      "description": "Our university",
       "logo": "images/partner-cbs.png",
       "website": "https://cbs.dk"
     }
