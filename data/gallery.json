@@ -1,7 +1,7 @@
 {
   "images": [
     {
-      "src": "images/gallery1.jpg",
+      "src": "images/gallery8.jpg",
       "caption": "Pinot Noir Tasting with Laudrup Vin Spring 2025"
     },
     {
@@ -25,11 +25,31 @@
       "caption": "Tasting with Otto Suenson Spring 2025"
     },
     {
+      "src": "images/gallery66.jpg",
+      "caption": "CBS represented internationally"
+    },
+    {
       "src": "images/gallery7.jpg",
       "caption": "Tasting with Bodegas Muga Spring 2025"
     },
     {
-      "src": "images/gallery8.jpg",
+      "src": "images/gallery88.jpg",
+      "caption": "Summer Party 2025"
+    },
+    {
+      "src": "images/gallery9.jpg",
+      "caption": "Internal Meeting Wine Lineup"
+    },
+    {
+      "src": "images/gallery10.jpg",
+      "caption": "International Competition"
+    },
+    {
+      "src": "images/gallery111.jpg",
+      "caption": "Internal Meeting"
+    },
+    {
+      "src": "images/gallery1.jpg",
       "caption": "Tasting with Bodegas Muga Spring 2025"
     }
   ]
