@@ -527,6 +527,23 @@
 
 
   /* ----------------------------------------------------------
+     6. EMAIL SIGNUP — placeholder, no real submission yet
+     ---------------------------------------------------------- */
+
+  document.querySelectorAll('.email-signup__form').forEach(function (form) {
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var wrap = form.closest('.email-signup__form-wrap');
+      var success = wrap ? wrap.querySelector('.email-signup__success') : null;
+      form.hidden = true;
+      if (success) {
+        success.removeAttribute('hidden');
+      }
+    });
+  });
+
+
+  /* ----------------------------------------------------------
      HELPER: Re-initialize scroll animations
      (Called after dynamically loading content)
      ---------------------------------------------------------- */
