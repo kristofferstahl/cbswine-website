@@ -1,7 +1,7 @@
 {
   "images": [
     {
-      "src": "images/gallery1.heic",
+      "src": "images/gallery1.jpg",
       "caption": "Pinot Noir Tasting with Laudrup Vin — Spring 2025"
     },
     {
@@ -13,23 +13,23 @@
       "caption": "CBS Wine"
     },
     {
-      "src": "images/gallery4.heic",
+      "src": "images/gallery4.jpg",
       "caption": "Pinot Noir Tasting with Laudrup Vin — Spring 2025"
     },
     {
-      "src": "images/gallery5.heic",
+      "src": "images/gallery5.jpg",
       "caption": "Pinot Noir Tasting with Laudrup Vin — Spring 2025"
     },
     {
-      "src": "images/gallery6.heic",
+      "src": "images/gallery6.jpg",
       "caption": "Tasting with Otto Suenson — Spring 2025"
     },
     {
-      "src": "images/gallery7.heic",
+      "src": "images/gallery7.jpg",
       "caption": "Tasting with Bodegas Muga — Spring 2025"
     },
     {
-      "src": "images/gallery8.heic",
+      "src": "images/gallery8.jpg",
       "caption": "Tasting with Bodegas Muga — Spring 2025"
     }
   ]
