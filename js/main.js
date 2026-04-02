@@ -404,39 +404,8 @@
 
 
   /* ----------------------------------------------------------
-     3e. ABOUT PAGE — TEAM LOADER
+     3e. (REMOVED — team section replaced with static "Join the Team")
      ---------------------------------------------------------- */
-
-  const teamGrid = document.getElementById('team-grid');
-
-  if (teamGrid) {
-    loadData('team.json').then(function (data) {
-      if (!data || !data.members || data.members.length === 0) {
-        teamGrid.innerHTML = createPlaceholder(
-          'Team coming soon',
-          'Meet the people behind CBS Wine — details coming soon.'
-        );
-        return;
-      }
-
-      teamGrid.innerHTML = data.members.map(function (member) {
-        const photoMarkup = member.photo
-          ? `<img class="team-card__photo" src="${member.photo}" alt="${member.name}" loading="lazy">`
-          : `<div class="team-card__photo skeleton"></div>`;
-
-        return `
-          <div class="team-card" data-animate>
-            ${photoMarkup}
-            <h3 class="team-card__name">${member.name}</h3>
-            <p class="team-card__role">${member.role || ''}</p>
-            <p class="team-card__bio">${member.bio || ''}</p>
-          </div>
-        `;
-      }).join('');
-
-      initAnimations();
-    });
-  }
 
 
   /* ----------------------------------------------------------
