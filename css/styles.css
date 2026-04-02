@@ -460,6 +460,12 @@ p:last-child {
   z-index: 1001;
 }
 
+.nav__logo-img {
+  height: 38px;
+  width: auto;
+  display: block;
+}
+
 .nav__logo-icon {
   width: 36px;
   height: 36px;
@@ -685,7 +691,7 @@ p:last-child {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .hero__overlay {
@@ -693,8 +699,8 @@ p:last-child {
   inset: 0;
   background: linear-gradient(
     to bottom,
-    rgba(122, 45, 46, 0.5) 0%,
-    rgba(122, 45, 46, 0.85) 100%
+    rgba(0, 0, 0, 0.3) 0%,
+    rgba(0, 0, 0, 0.65) 100%
   );
 }
 
@@ -1031,6 +1037,12 @@ p:last-child {
   gap: var(--space-sm);
   text-decoration: none;
   margin-bottom: var(--space-md);
+}
+
+.footer__logo-img {
+  height: 52px;
+  width: auto;
+  display: block;
 }
 
 .footer__logo-icon {
