@@ -1552,6 +1552,57 @@ p:last-child {
   margin-right: auto;
 }
 
+/* ============================================================
+   WORK WITH US — collaboration benefits & audience cards
+   ============================================================ */
+
+.collab-benefit {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  padding: var(--space-xl);
+  background-color: var(--color-surface);
+  border-radius: var(--border-radius-lg);
+}
+
+.collab-benefit__icon {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(164, 61, 62, 0.1);
+  border-radius: var(--border-radius-md);
+  color: var(--color-primary);
+  flex-shrink: 0;
+  margin-bottom: var(--space-xs);
+}
+
+.collab-benefit__icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.collab-benefit h4 {
+  margin: 0;
+}
+
+.collab-audience {
+  padding: var(--space-xl);
+  border: 1px solid var(--color-accent-light);
+  border-top: 3px solid var(--color-primary);
+  border-radius: var(--border-radius-lg);
+}
+
+.collab-audience h4 {
+  color: var(--color-primary);
+  margin-bottom: var(--space-sm);
+}
+
+.collab-audience p {
+  color: var(--color-text-muted);
+}
+
 /* Stats row (used on home page) */
 .stats {
   display: grid;
