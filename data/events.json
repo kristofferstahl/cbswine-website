@@ -1,0 +1,48 @@
+{
+  "events": [
+    {
+      "title": "Spring Tasting: Wines of Piedmont",
+      "date": "2026-04-28",
+      "time": "17:00–19:00",
+      "location": "CBS Solbjerg Plads, Auditorium SP112",
+      "description": "Explore the noble wines of Piedmont — from everyday Barbera to elegant Barolo. Four carefully selected wines presented by Laudrup Vin, paired with Italian cheese and charcuterie.",
+      "price": "100 kr (CBS students) · 150 kr (guests)",
+      "image": "images/event-piedmont.jpg",
+      "signupUrl": "https://example.com/signup",
+      "soldOut": false
+    },
+    {
+      "title": "Natural Wine Evening",
+      "date": "2026-05-19",
+      "time": "17:30–19:30",
+      "location": "CBS Dalgas Have, Room DH.Ø.0.62",
+      "description": "Curious about natural wine? Join us for a guided tasting of four distinctive natural wines from France and Italy, presented by Cruvin.dk.",
+      "price": "100 kr (CBS students) · 150 kr (guests)",
+      "image": "images/event-natural.jpg",
+      "signupUrl": "https://example.com/signup",
+      "soldOut": false
+    },
+    {
+      "title": "Champagne & Sparkling Masterclass",
+      "date": "2026-02-15",
+      "time": "17:00–19:00",
+      "location": "CBS Solbjerg Plads, Auditorium SP112",
+      "description": "A festive evening of bubbles — comparing Champagne with Crémant, Cava, and Prosecco. Presented by Otto Suenson with expert commentary.",
+      "price": "120 kr",
+      "image": "images/event-champagne.jpg",
+      "signupUrl": "",
+      "soldOut": false
+    },
+    {
+      "title": "Intro to Wine Tasting",
+      "date": "2025-11-10",
+      "time": "17:00–19:00",
+      "location": "CBS Solbjerg Plads, Auditorium SP112",
+      "description": "Our semester opener — learn the basics of wine tasting with four approachable wines. Perfect for beginners and curious minds.",
+      "price": "80 kr",
+      "image": "images/event-intro.jpg",
+      "signupUrl": "",
+      "soldOut": true
+    }
+  ]
+}

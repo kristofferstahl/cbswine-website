@@ -1,0 +1,36 @@
+{
+  "images": [
+    {
+      "src": "images/gallery-01.jpg",
+      "caption": "Spring Tasting 2026 — Wines of Burgundy"
+    },
+    {
+      "src": "images/gallery-02.jpg",
+      "caption": "Our packed auditorium at CBS Solbjerg Plads"
+    },
+    {
+      "src": "images/gallery-03.jpg",
+      "caption": "Guided tasting with Laudrup Vin"
+    },
+    {
+      "src": "images/gallery-04.jpg",
+      "caption": "Natural Wine Evening — Autumn 2025"
+    },
+    {
+      "src": "images/gallery-05.jpg",
+      "caption": "Networking over great wine"
+    },
+    {
+      "src": "images/gallery-06.jpg",
+      "caption": "Learning the art of wine tasting"
+    },
+    {
+      "src": "images/gallery-07.jpg",
+      "caption": "Champagne & Sparkling Masterclass"
+    },
+    {
+      "src": "images/gallery-08.jpg",
+      "caption": "CBS Wine board members"
+    }
+  ]
+}

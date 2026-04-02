@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Photos from CBS Wine's wine tasting events at Copenhagen Business School.">
+  <meta property="og:title" content="Gallery — CBS Wine">
+  <meta property="og:description" content="Photos from our wine tasting events at Copenhagen Business School.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cbswine.dk/gallery">
+  <meta property="og:image" content="https://cbswine.dk/images/og-image.jpg">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+  <title>Gallery — CBS Wine</title>
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo" aria-label="CBS Wine home">
+        <svg class="nav__logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 3C15.5 3 13 5.5 13 9C13 12 14 14 14 17C14 20 12 22 12 25C12 29 14.5 33 18 33C21.5 33 24 29 24 25C24 22 22 20 22 17C22 14 23 12 23 9C23 5.5 20.5 3 18 3Z" fill="#A43D3E"/>
+          <ellipse cx="18" cy="9" rx="3.5" ry="4.5" fill="#C9A84C" opacity="0.3"/>
+        </svg>
+        <span class="nav__logo-text">CBS Wine</span>
+      </a>
+      <div class="nav__links">
+        <a href="/" class="nav__link">Home</a>
+        <a href="/events.html" class="nav__link">Events</a>
+        <a href="/gallery.html" class="nav__link nav__link--active">Gallery</a>
+        <a href="/partners.html" class="nav__link">Partners</a>
+        <a href="/about.html" class="nav__link">About</a>
+      </div>
+      <button class="nav__hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__overlay">
+      <a href="/" class="nav__overlay-link">Home</a>
+      <a href="/events.html" class="nav__overlay-link">Events</a>
+      <a href="/gallery.html" class="nav__overlay-link nav__overlay-link--active">Gallery</a>
+      <a href="/partners.html" class="nav__overlay-link">Partners</a>
+      <a href="/about.html" class="nav__overlay-link">About</a>
+    </div>
+  </nav>
+
+  <!-- ========== PAGE HERO ========== -->
+  <section class="hero hero--page">
+    <div class="hero__bg" style="background-image: url('images/hero-gallery.jpg');"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__label">Moments & Memories</span>
+      <h1 class="hero__title">Gallery</h1>
+      <p class="hero__subtitle">Scenes from our tastings — the wines, the people, and the atmosphere that makes CBS Wine special.</p>
+    </div>
+  </section>
+
+  <!-- ========== GALLERY GRID ========== -->
+  <section class="section">
+    <div class="container">
+      <div class="gallery-grid" id="gallery-grid">
+        <!-- Loaded from gallery.json via JS -->
+        <div class="placeholder" style="grid-column: 1 / -1;">
+          <svg class="placeholder__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/>
+          </svg>
+          <p class="placeholder__title">Gallery coming soon</p>
+          <p class="placeholder__text">Photos from our tastings will appear here. Follow us on Instagram for live updates!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" id="lightbox-close" aria-label="Close lightbox">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lightbox-prev" aria-label="Previous image">&#8249;</button>
+    <button class="lightbox__nav lightbox__nav--next" id="lightbox-next" aria-label="Next image">&#8250;</button>
+    <img class="lightbox__image" id="lightbox-image" src="" alt="">
+    <p class="lightbox__caption" id="lightbox-caption"></p>
+  </div>
+
+  <!-- ========== CTA ========== -->
+  <section class="section section--surface">
+    <div class="container text-center">
+      <div data-animate>
+        <h2 class="mb-md">See More on Instagram</h2>
+        <p class="text-muted" style="max-width: 480px; margin: 0 auto var(--space-xl);">We share stories, reels, and behind-the-scenes content from every event.</p>
+        <a href="https://instagram.com/cbswine" class="btn btn--primary" target="_blank" rel="noopener">Follow @cbswine</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <a href="/" class="footer__logo">
+            <svg class="footer__logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 3C15.5 3 13 5.5 13 9C13 12 14 14 14 17C14 20 12 22 12 25C12 29 14.5 33 18 33C21.5 33 24 29 24 25C24 22 22 20 22 17C22 14 23 12 23 9C23 5.5 20.5 3 18 3Z" fill="#FFFFFF"/>
+              <ellipse cx="18" cy="9" rx="3.5" ry="4.5" fill="#C9A84C" opacity="0.3"/>
+            </svg>
+            <span class="footer__logo-text">CBS Wine</span>
+          </a>
+          <p class="footer__description">The student wine society at Copenhagen Business School. Bringing affordable, expert-led wine tastings to campus since 2024.</p>
+          <div class="footer__social">
+            <a href="https://instagram.com/cbswine" class="footer__social-link" target="_blank" rel="noopener" aria-label="Follow us on Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="mailto:wine@cbswine.dk" class="footer__social-link" aria-label="Email us">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer__heading">Explore</h4>
+          <ul class="footer__link-list">
+            <li><a href="/events.html" class="footer__link">Events</a></li>
+            <li><a href="/gallery.html" class="footer__link">Gallery</a></li>
+            <li><a href="/partners.html" class="footer__link">Partners</a></li>
+            <li><a href="/about.html" class="footer__link">About Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <ul class="footer__link-list">
+            <li><a href="mailto:wine@cbswine.dk" class="footer__link">wine@cbswine.dk</a></li>
+            <li><a href="https://instagram.com/cbswine" class="footer__link" target="_blank" rel="noopener">@cbswine</a></li>
+            <li><span class="footer__link">Copenhagen Business School</span></li>
+            <li><span class="footer__link">Solbjerg Plads 3, 2000 Frederiksberg</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; <span id="current-year">2026</span> CBS Wine. All rights reserved.</p>
+        <a href="mailto:wine@cbswine.dk" class="footer__email">wine@cbswine.dk</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

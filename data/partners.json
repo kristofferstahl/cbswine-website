@@ -1,0 +1,32 @@
+{
+  "partners": [
+    {
+      "name": "Laudrup Vin",
+      "type": "Wine Importer",
+      "description": "Family-owned Danish importer specializing in artisanal European wines. Our most frequent tasting partner.",
+      "logo": "images/partner-laudrup.png",
+      "website": "https://laudrupvin.dk"
+    },
+    {
+      "name": "Otto Suenson",
+      "type": "Wine Merchant",
+      "description": "One of Copenhagen's oldest wine merchants, offering a curated selection of fine wines since 1863.",
+      "logo": "images/partner-suenson.png",
+      "website": "https://ottosuenson.dk"
+    },
+    {
+      "name": "Cruvin.dk",
+      "type": "Online Wine Shop",
+      "description": "Online wine retailer focused on organic, natural, and biodynamic wines from small producers.",
+      "logo": "images/partner-cruvin.png",
+      "website": "https://cruvin.dk"
+    },
+    {
+      "name": "Copenhagen Business School",
+      "type": "Venue Partner",
+      "description": "CBS provides us with free auditorium access for all our tasting events on campus.",
+      "logo": "images/partner-cbs.png",
+      "website": "https://cbs.dk"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "members": [
+    {
+      "name": "Your Name",
+      "role": "President",
+      "bio": "MSc in Finance & Investments. Passionate about bringing great wine experiences to CBS students.",
+      "photo": "images/team-president.jpg"
+    },
+    {
+      "name": "Team Member",
+      "role": "Vice President",
+      "bio": "MSc in International Business. Coordinates our partnerships with wine importers and shops.",
+      "photo": "images/team-vp.jpg"
+    },
+    {
+      "name": "Team Member",
+      "role": "Events Coordinator",
+      "bio": "BSc in Business Administration. Handles all logistics from auditorium booking to glassware.",
+      "photo": "images/team-events.jpg"
+    },
+    {
+      "name": "Team Member",
+      "role": "Communications",
+      "bio": "MSc in Marketing. Runs our Instagram and designs our event promotional materials.",
+      "photo": "images/team-comms.jpg"
+    }
+  ]
+}
