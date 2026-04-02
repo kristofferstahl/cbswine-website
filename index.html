@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CBS Wine is Copenhagen Business School's student wine society. Join us for affordable, expert-led wine tastings on campus.">
+  <meta name="keywords" content="CBS, Copenhagen Business School, wine society, wine tasting, student club, Denmark">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="CBS Wine — Student Wine Society at Copenhagen Business School">
+  <meta property="og:description" content="Join us for affordable, expert-led wine tastings on campus. 50–100 students per event, partnering with top Danish wine importers.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cbswine.dk">
+  <meta property="og:image" content="https://cbswine.dk/images/og-image.jpg">
+  <meta property="og:locale" content="en_DK">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="CBS Wine — Student Wine Society">
+  <meta name="twitter:description" content="Affordable, expert-led wine tastings at Copenhagen Business School.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="/css/styles.css">
+
+  <title>CBS Wine — Student Wine Society at Copenhagen Business School</title>
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav__inner">
+      <a href="/" class="nav__logo" aria-label="CBS Wine home">
+        <svg class="nav__logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 3C15.5 3 13 5.5 13 9C13 12 14 14 14 17C14 20 12 22 12 25C12 29 14.5 33 18 33C21.5 33 24 29 24 25C24 22 22 20 22 17C22 14 23 12 23 9C23 5.5 20.5 3 18 3Z" fill="#A43D3E"/>
+          <ellipse cx="18" cy="9" rx="3.5" ry="4.5" fill="#C9A84C" opacity="0.3"/>
+        </svg>
+        <span class="nav__logo-text">CBS Wine</span>
+      </a>
+
+      <!-- Desktop links -->
+      <div class="nav__links">
+        <a href="/" class="nav__link nav__link--active">Home</a>
+        <a href="/events.html" class="nav__link">Events</a>
+        <a href="/gallery.html" class="nav__link">Gallery</a>
+        <a href="/partners.html" class="nav__link">Partners</a>
+        <a href="/about.html" class="nav__link">About</a>
+      </div>
+
+      <!-- Hamburger (mobile) -->
+      <button class="nav__hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- Mobile overlay -->
+    <div class="nav__overlay">
+      <a href="/" class="nav__overlay-link nav__overlay-link--active">Home</a>
+      <a href="/events.html" class="nav__overlay-link">Events</a>
+      <a href="/gallery.html" class="nav__overlay-link">Gallery</a>
+      <a href="/partners.html" class="nav__overlay-link">Partners</a>
+      <a href="/about.html" class="nav__overlay-link">About</a>
+    </div>
+  </nav>
+
+
+  <!-- ========== HERO ========== -->
+  <section class="hero">
+    <div class="hero__bg" style="background-image: url('images/hero-home.jpg');"></div>
+    <div class="hero__overlay"></div>
+    <div class="hero__content">
+      <span class="hero__label">Copenhagen Business School</span>
+      <h1 class="hero__title">Discover Wine,<br>One Glass at a Time</h1>
+      <p class="hero__subtitle">CBS Wine is Copenhagen's leading student wine society. Join 50–100 fellow students for expert-led tastings at student-friendly prices.</p>
+      <div class="hero__actions">
+        <a href="/events.html" class="btn btn--primary">Upcoming Events</a>
+        <a href="/about.html" class="btn btn--outline">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== INTRO / VALUE PROP ========== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <h2>Wine Made Approachable</h2>
+        <p>We partner with Denmark's best wine importers to bring curated tastings to campus — no pretension, just great wine and good company.</p>
+      </div>
+
+      <div class="stats" data-animate>
+        <div class="stat">
+          <span class="stat__number">50–100</span>
+          <span class="stat__label">Students per event</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number">100 kr</span>
+          <span class="stat__label">Typical ticket price</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number">4+</span>
+          <span class="stat__label">Wines per tasting</span>
+        </div>
+        <div class="stat">
+          <span class="stat__number">2–3</span>
+          <span class="stat__label">Events per semester</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== FEATURED EVENTS ========== -->
+  <section class="section section--surface">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <h2>Upcoming Events</h2>
+        <p>Our next tastings — reserve your spot before they sell out.</p>
+      </div>
+
+      <div class="grid grid--2" id="featured-events">
+        <!-- Loaded from events.json via JS -->
+        <div class="placeholder">
+          <svg class="placeholder__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path d="M12 6v6l4 2"/><circle cx="12" cy="12" r="10"/>
+          </svg>
+          <p class="placeholder__title">Loading events...</p>
+          <p class="placeholder__text">Fetching our latest tasting schedule.</p>
+        </div>
+      </div>
+
+      <div class="text-center mt-xl" data-animate>
+        <a href="/events.html" class="link-arrow">View all events</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== HOW IT WORKS ========== -->
+  <section class="section">
+    <div class="container container--narrow">
+      <div class="section-header" data-animate>
+        <h2>How It Works</h2>
+        <p>From sign-up to sip — attending a CBS Wine tasting is easy.</p>
+      </div>
+
+      <div class="grid grid--3" data-animate-stagger>
+        <div class="text-center" style="padding: var(--space-lg);">
+          <div style="font-size: var(--text-3xl); color: var(--color-accent); font-family: var(--font-heading); margin-bottom: var(--space-sm);">1</div>
+          <h4 class="mb-sm">Sign Up</h4>
+          <p class="text-sm text-muted">Grab your spot through our event link — shared on Instagram and here on the website.</p>
+        </div>
+        <div class="text-center" style="padding: var(--space-lg);">
+          <div style="font-size: var(--text-3xl); color: var(--color-accent); font-family: var(--font-heading); margin-bottom: var(--space-sm);">2</div>
+          <h4 class="mb-sm">Show Up</h4>
+          <p class="text-sm text-muted">Come to the CBS auditorium. We provide the glasses, the wine, and a knowledgeable presenter.</p>
+        </div>
+        <div class="text-center" style="padding: var(--space-lg);">
+          <div style="font-size: var(--text-3xl); color: var(--color-accent); font-family: var(--font-heading); margin-bottom: var(--space-sm);">3</div>
+          <h4 class="mb-sm">Taste & Learn</h4>
+          <p class="text-sm text-muted">Enjoy 4+ wines with expert guidance. No experience needed — just curiosity and a palate.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== PARTNERS STRIP ========== -->
+  <section class="section section--surface">
+    <div class="container">
+      <div class="section-header" data-animate>
+        <h2>Our Partners</h2>
+        <p>We collaborate with respected wine importers and merchants across Denmark.</p>
+      </div>
+
+      <div class="partner-logo-grid" id="partner-logos" data-animate>
+        <!-- Loaded from partners.json via JS -->
+        <p class="text-center text-muted" style="grid-column: 1 / -1;">Loading partners...</p>
+      </div>
+
+      <div class="text-center mt-xl" data-animate>
+        <a href="/partners.html" class="link-arrow">View all partners</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== CTA SECTION ========== -->
+  <section class="section section--dark">
+    <div class="container text-center">
+      <div data-animate>
+        <h2 class="mb-md">Ready to Join?</h2>
+        <p style="color: var(--color-text-on-dark-muted); max-width: 480px; margin: 0 auto var(--space-xl);">Follow us on Instagram for event announcements, or explore our upcoming tastings.</p>
+        <div class="hero__actions">
+          <a href="/events.html" class="btn btn--primary">See Events</a>
+          <a href="https://instagram.com/cbswine" class="btn btn--outline" target="_blank" rel="noopener">Follow on Instagram</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <!-- Brand column -->
+        <div class="footer__brand">
+          <a href="/" class="footer__logo">
+            <svg class="footer__logo-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 3C15.5 3 13 5.5 13 9C13 12 14 14 14 17C14 20 12 22 12 25C12 29 14.5 33 18 33C21.5 33 24 29 24 25C24 22 22 20 22 17C22 14 23 12 23 9C23 5.5 20.5 3 18 3Z" fill="#FFFFFF"/>
+              <ellipse cx="18" cy="9" rx="3.5" ry="4.5" fill="#C9A84C" opacity="0.3"/>
+            </svg>
+            <span class="footer__logo-text">CBS Wine</span>
+          </a>
+          <p class="footer__description">The student wine society at Copenhagen Business School. Bringing affordable, expert-led wine tastings to campus since 2024.</p>
+          <div class="footer__social">
+            <a href="https://instagram.com/cbswine" class="footer__social-link" target="_blank" rel="noopener" aria-label="Follow us on Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="mailto:wine@cbswine.dk" class="footer__social-link" aria-label="Email us">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick links -->
+        <div>
+          <h4 class="footer__heading">Explore</h4>
+          <ul class="footer__link-list">
+            <li><a href="/events.html" class="footer__link">Events</a></li>
+            <li><a href="/gallery.html" class="footer__link">Gallery</a></li>
+            <li><a href="/partners.html" class="footer__link">Partners</a></li>
+            <li><a href="/about.html" class="footer__link">About Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div>
+          <h4 class="footer__heading">Contact</h4>
+          <ul class="footer__link-list">
+            <li><a href="mailto:wine@cbswine.dk" class="footer__link">wine@cbswine.dk</a></li>
+            <li><a href="https://instagram.com/cbswine" class="footer__link" target="_blank" rel="noopener">@cbswine</a></li>
+            <li><span class="footer__link">Copenhagen Business School</span></li>
+            <li><span class="footer__link">Solbjerg Plads 3, 2000 Frederiksberg</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">&copy; <span id="current-year">2026</span> CBS Wine. All rights reserved.</p>
+        <a href="mailto:wine@cbswine.dk" class="footer__email">wine@cbswine.dk</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="/js/main.js"></script>
+</body>
+</html>
