@@ -165,6 +165,10 @@
    * @returns {string} Formatted date, e.g. "15 March 2025"
    */
   function formatDate(dateStr) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+      console.warn('CBS Wine: bad date "' + dateStr + '" in events.json — use YYYY-MM-DD (e.g. "2026-04-28").');
+      return dateStr;
+    }
     const date = new Date(dateStr + 'T00:00:00');
     return date.toLocaleDateString('en-GB', {
       day: 'numeric',
@@ -177,6 +181,10 @@
    * Check if a date is in the future.
    */
   function isFutureDate(dateStr) {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+      console.warn('CBS Wine: bad date "' + dateStr + '" in events.json — use YYYY-MM-DD (e.g. "2026-04-28").');
+      return false;
+    }
     const eventDate = new Date(dateStr + 'T23:59:59');
     return eventDate >= new Date();
   }
