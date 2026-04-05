@@ -23,14 +23,80 @@
       "soldOut": false
     },
     {
-      "title": "Domaine de la Romanée-Conti 1946 Horizontal Tasting",
-      "date": "2002-12-24",
-      "time": "10:85 PM",
-      "location": "Derhjemme",
-      "description": "An exclusive horizontal tasting of the legendary Domaine de la Romanée-Conti 1946.",
+      "title": "Champagne Tasting with Champagne Guru",
+      "date": "2025-12-01",
+      "time": "TBA",
+      "location": "CBS, Kilen",
+      "description": "Ring in the new year season with a curated selection of Champagnes, guided by the experts at Champagne Guru.",
+      "price": "149 kr",
+      "image": "",
+      "signupUrl": null,
+      "soldOut": true
+    },
+    {
+      "title": "South African Wine Tasting with Cape to Cape",
+      "date": "2025-10-30",
+      "time": "TBA",
+      "location": "CBS, Kilen",
+      "description": "Explore the rich diversity of South African wines — from bold Cabernets to elegant Chenin Blancs — guided by Cape to Cape.",
       "price": "99 kr",
-      "image": "images/drc.jpg",
-      "signupUrl": "https://billetto.dk/users/cbs-wine",
+      "image": "",
+      "signupUrl": null,
+      "soldOut": true
+    },
+    {
+      "title": "Small Sibling Wines: Lesser-Known Grapes from Renowned Regions",
+      "date": "2025-09-30",
+      "time": "TBA",
+      "location": "CBS, Kilen K",
+      "description": "Discover high-quality, lesser-known grape varieties from famous wine regions. A tasting for the curious, guided by Bichel Vine.",
+      "price": "99 kr",
+      "image": "",
+      "signupUrl": null,
+      "soldOut": true
+    },
+    {
+      "title": "Bodegas Muga Tasting with Laudrup Vin",
+      "date": "2025-05-05",
+      "time": "TBA",
+      "location": "CBS Solbjerg Plads",
+      "description": "A deep dive into the wines of Bodegas Muga, one of Rioja's most celebrated producers, presented by Laudrup Vin.",
+      "price": "149 kr",
+      "image": "",
+      "signupUrl": null,
+      "soldOut": true
+    },
+    {
+      "title": "Blind Tasting: How Does One Taste Wine? with Otto Suenson",
+      "date": "2025-03-26",
+      "time": "TBA",
+      "location": "CBS Solbjerg Plads",
+      "description": "A hands-on blind tasting experience with Otto Suenson — learn to read a wine without seeing the label and develop your palate.",
+      "price": "75 kr",
+      "image": "",
+      "signupUrl": null,
+      "soldOut": true
+    },
+    {
+      "title": "Pinot Noir: Ripe Richness vs. Light Elegance with Laudrup Vin",
+      "date": "2025-02-12",
+      "time": "TBA",
+      "location": "CBS Solbjerg Plads",
+      "description": "An introduction to the contrasting styles of Pinot Noir — five glasses showcasing the grape's remarkable range, guided by Laudrup Vin.",
+      "price": "99 kr",
+      "image": "",
+      "signupUrl": null,
+      "soldOut": true
+    },
+    {
+      "title": "Introduction to Riesling with Manfred & Co.",
+      "date": "2024-10-28",
+      "time": "17:30",
+      "location": "CBS, Kilen K150",
+      "description": "A guided introduction to German Riesling — four bottles from Mittelrhein, Mosel, Baden-Württemberg, and Rheinhessen, exploring the regions and styles that make Riesling unique.",
+      "price": "150 kr",
+      "image": "",
+      "signupUrl": null,
       "soldOut": true
     }
   ]
