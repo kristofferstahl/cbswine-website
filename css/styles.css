@@ -293,6 +293,16 @@ p:last-child {
   color: var(--color-text-on-dark);
 }
 
+.section--compact {
+  padding: var(--space-2xl) 0;
+}
+
+@media (min-width: 768px) {
+  .section--compact {
+    padding: var(--space-3xl) 0;
+  }
+}
+
 .section--dark h2,
 .section--dark h3 {
   color: var(--color-text-on-dark);
