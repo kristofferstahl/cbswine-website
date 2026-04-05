@@ -1460,12 +1460,9 @@ p:last-child {
   justify-content: center;
   padding: var(--space-lg);
   transition: filter var(--transition-base), transform var(--transition-base);
-  /* Grayscale by default, color on hover */
-  filter: grayscale(100%) opacity(0.6);
 }
 
 .partner-logo:hover {
-  filter: grayscale(0%) opacity(1);
   transform: scale(1.05);
 }
 
@@ -1771,6 +1768,21 @@ p:last-child {
 
 .collab-audience p {
   color: var(--color-text-muted);
+}
+
+/* Intro prose (replaces stats row on home page) */
+.intro-prose {
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: var(--text-lg);
+  line-height: 1.75;
+  color: var(--color-text-on-dark-muted);
+}
+
+.intro-prose__highlight {
+  color: var(--color-accent);
+  font-weight: 500;
 }
 
 /* Stats row (used on home page) */
