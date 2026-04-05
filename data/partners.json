@@ -15,6 +15,13 @@
       "website": "https://ottosuenson.dk"
     },
     {
+      "name": "Bichel Vine",
+      "type": "Wine Importer and Retailer",
+      "description": "Wine importer with several stores around the country, including one in Frederiksberg close to CBS",
+      "logo": "images/bichel.png",
+      "website": "https://bichel.dk"
+    },
+    {
       "name": "Cruvin.dk",
       "type": "Online Wine Shop",
       "description": "Online wine retailer focused on organic, natural, and biodynamic wines from small producers.",
@@ -22,11 +29,25 @@
       "website": "https://cruvin.dk"
     },
     {
-      "name": "Copenhagen Business School",
-      "type": "Venue Partner",
-      "description": "Our university",
-      "logo": "images/partner-cbs.png",
-      "website": "https://cbs.dk"
+      "name": "Champagne Guru",
+      "type": "Wine Importer and Store",
+      "description": "Champagne and wine importer, hosting mainly champagne-focused events",
+      "logo": "images/cg.png",
+      "website": "https://champagneguru.dk"
+    },
+    {
+      "name": "CapeToCope",
+      "type": "Wine Importer and Online Store",
+      "description": "Importer of South African wines, bringing boutique quality wine from Cape to Cope(enhagen)",
+      "logo": "images/cape.png",
+      "website": "https://capetocopewines.dk"
+    },
+    {
+      "name": "Manfred & Co",
+      "type": "Wine Importer and Online Store",
+      "description": "Importer of German wines, focusing on smaller producers from the slopes along the Rhine River",
+      "logo": "images/manfred.png",
+      "website": "https://manfredogco.dk"
     }
   ]
 }

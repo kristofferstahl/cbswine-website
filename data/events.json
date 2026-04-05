@@ -3,8 +3,8 @@
     {
       "title": "Natural Wine Tasting",
       "date": "2026-04-28",
-      "time": "TBA",
-      "location": "CBS Solbjerg Plads, Auditorium TBA",
+      "time": "time TBA",
+      "location": "CBS, Auditorium TBA",
       "description": "Curious about natural wine? Join us for a guided tasting of four distinctive natural wines from France, Italy and Slovakia",
       "price": "160 kr (CBS Students)",
       "image": "images/arbois-jura.jpg",
@@ -14,10 +14,10 @@
     {
       "title": "Unique Winemakers Tasting with Weingüter Wegeler​",
       "date": "2026-05-28",
-      "time": "TBA",
-      "location": "CBS Dalgas Have, Room TBA",
+      "time": "time TBA",
+      "location": "CBS, Auditorium TBA",
       "description": "An exclusive tasting of unique wines from the renowned Weingüter Wegeler, featuring Rieslings and Spätburgunders.",
-      "price": "TBA",
+      "price": "price TBA",
       "image": "images/wegeler.png",
       "signupUrl": "https://billetto.dk/users/cbs-wine",
       "soldOut": false
@@ -25,7 +25,7 @@
     {
       "title": "Champagne Tasting with Champagne Guru",
       "date": "2025-12-01",
-      "time": "TBA",
+      "time": "",
       "location": "CBS, Kilen",
       "description": "Ring in the new year season with a curated selection of Champagnes, guided by the experts at Champagne Guru.",
       "price": "149 kr",
@@ -36,7 +36,7 @@
     {
       "title": "South African Wine Tasting with Cape to Cape",
       "date": "2025-10-30",
-      "time": "TBA",
+      "time": "",
       "location": "CBS, Kilen",
       "description": "Explore the rich diversity of South African wines — from bold Cabernets to elegant Chenin Blancs — guided by Cape to Cape.",
       "price": "99 kr",
@@ -47,7 +47,7 @@
     {
       "title": "Small Sibling Wines: Lesser-Known Grapes from Renowned Regions",
       "date": "2025-09-30",
-      "time": "TBA",
+      "time": "",
       "location": "CBS, Kilen K",
       "description": "Discover high-quality, lesser-known grape varieties from famous wine regions. A tasting for the curious, guided by Bichel Vine.",
       "price": "99 kr",
@@ -58,7 +58,7 @@
     {
       "title": "Bodegas Muga Tasting with Laudrup Vin",
       "date": "2025-05-05",
-      "time": "TBA",
+      "time": "",
       "location": "CBS Solbjerg Plads",
       "description": "A deep dive into the wines of Bodegas Muga, one of Rioja's most celebrated producers, presented by Laudrup Vin.",
       "price": "149 kr",
@@ -69,7 +69,7 @@
     {
       "title": "Blind Tasting: How Does One Taste Wine? with Otto Suenson",
       "date": "2025-03-26",
-      "time": "TBA",
+      "time": "",
       "location": "CBS Solbjerg Plads",
       "description": "A hands-on blind tasting experience with Otto Suenson — learn to read a wine without seeing the label and develop your palate.",
       "price": "75 kr",
@@ -80,7 +80,7 @@
     {
       "title": "Pinot Noir: Ripe Richness vs. Light Elegance with Laudrup Vin",
       "date": "2025-02-12",
-      "time": "TBA",
+      "time": "",
       "location": "CBS Solbjerg Plads",
       "description": "An introduction to the contrasting styles of Pinot Noir — five glasses showcasing the grape's remarkable range, guided by Laudrup Vin.",
       "price": "99 kr",
