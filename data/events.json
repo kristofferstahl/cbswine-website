@@ -29,7 +29,7 @@
       "location": "CBS, Kilen",
       "description": "Ring in the new year season with a curated selection of Champagnes, guided by the experts at Champagne Guru.",
       "price": "149 kr",
-      "image": "",
+      "image": "images/champagne.png",
       "signupUrl": null,
       "soldOut": true
     },
@@ -40,7 +40,7 @@
       "location": "CBS, Kilen",
       "description": "Explore the rich diversity of South African wines — from bold Cabernets to elegant Chenin Blancs — guided by Cape to Cape.",
       "price": "99 kr",
-      "image": "",
+      "image": "images/sa.png",
       "signupUrl": null,
       "soldOut": true
     },
@@ -51,7 +51,7 @@
       "location": "CBS, Kilen K",
       "description": "Discover high-quality, lesser-known grape varieties from famous wine regions. A tasting for the curious, guided by Bichel Vine.",
       "price": "99 kr",
-      "image": "",
+      "image": "images/grapes.png",
       "signupUrl": null,
       "soldOut": true
     },
@@ -62,7 +62,7 @@
       "location": "CBS Solbjerg Plads",
       "description": "A deep dive into the wines of Bodegas Muga, one of Rioja's most celebrated producers, presented by Laudrup Vin.",
       "price": "149 kr",
-      "image": "",
+      "image": "images/muga.png",
       "signupUrl": null,
       "soldOut": true
     },
@@ -73,7 +73,7 @@
       "location": "CBS Solbjerg Plads",
       "description": "A hands-on blind tasting experience with Otto Suenson — learn to read a wine without seeing the label and develop your palate.",
       "price": "75 kr",
-      "image": "",
+      "image": "images/blind.png",
       "signupUrl": null,
       "soldOut": true
     },
@@ -84,7 +84,7 @@
       "location": "CBS Solbjerg Plads",
       "description": "An introduction to the contrasting styles of Pinot Noir — five glasses showcasing the grape's remarkable range, guided by Laudrup Vin.",
       "price": "99 kr",
-      "image": "",
+      "image": "images/pinot.png",
       "signupUrl": null,
       "soldOut": true
     },
@@ -95,7 +95,7 @@
       "location": "CBS, Kilen K150",
       "description": "A guided introduction to German Riesling — four bottles from Mittelrhein, Mosel, Baden-Württemberg, and Rheinhessen, exploring the regions and styles that make Riesling unique.",
       "price": "150 kr",
-      "image": "",
+      "image": "images/mosel.png",
       "signupUrl": null,
       "soldOut": true
     }
