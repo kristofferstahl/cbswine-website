@@ -267,6 +267,17 @@ p:last-child {
   max-width: var(--max-width-narrow);
 }
 
+/* Decorative line under section headers */
+.section-header::after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: var(--color-accent);
+  margin: var(--space-lg) auto 0;
+  border-radius: 2px;
+}
+
 /* Section spacing — generous whitespace */
 .section {
   padding: var(--space-3xl) 0;
@@ -336,16 +347,6 @@ p:last-child {
   color: var(--color-text-on-dark-muted);
 }
 
-/* Decorative line under section headers */
-.section-header::after {
-  content: '';
-  display: block;
-  width: 48px;
-  height: 3px;
-  background: var(--color-accent);
-  margin: var(--space-lg) auto 0;
-  border-radius: 2px;
-}
 
 /* Responsive grid */
 .grid {
@@ -630,6 +631,14 @@ p:last-child {
 /* Force dark hamburger when menu is open (over white overlay) */
 .nav__hamburger--open span {
   background-color: var(--color-text) !important;
+}
+
+/* Solid nav background when mobile menu is open */
+.nav:has(.nav__hamburger--open) {
+  background-color: var(--color-bg) !important;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  box-shadow: none;
 }
 
 /* Mobile overlay menu */
