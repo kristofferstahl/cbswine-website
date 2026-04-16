@@ -2,13 +2,13 @@
   "events": [
     {
       "title": "Natural Wine Tasting",
-      "date": "2026-04-28",
-      "time": "time TBA",
-      "location": "CBS, Auditorium TBA",
-      "description": "Curious about natural wine? Join us for a guided tasting of four distinctive natural wines from France, Italy and Slovakia",
+      "date": "2026-04-30",
+      "time": "17:00",
+      "location": "CBS, Location TBA",
+      "description": "Curious about natural wine? Join us for a guided tasting of six distinctive natural wines from France, Italy and Slovakia",
       "price": "160 kr (CBS Students)",
-      "image": "images/arbois-jura.jpg",
-      "signupUrl": "https://billetto.dk/users/cbs-wine",
+      "image": "images/natty.png",
+      "signupUrl": "https://billetto.dk/e/natural-wine-tasting-billetter-1901016",
       "soldOut": false
     },
     {
@@ -53,7 +53,7 @@
       "price": "99 kr",
       "image": "images/grapes.png",
       "signupUrl": null,
-      "soldOut": true
+      "soldOut": false
     },
     {
       "title": "Bodegas Muga Tasting with Laudrup Vin",
@@ -64,7 +64,7 @@
       "price": "149 kr",
       "image": "images/muga.png",
       "signupUrl": null,
-      "soldOut": true
+      "soldOut": false
     },
     {
       "title": "Blind Tasting: How Does One Taste Wine? with Otto Suenson",
