@@ -1,25 +1,14 @@
 {
   "events": [
     {
-      "title": "Natural Wine Tasting",
-      "date": "2026-04-30",
-      "time": "17:00",
-      "location": "CBS, Location TBA",
-      "description": "Curious about natural wine? Join us for a guided tasting of six distinctive natural wines from France, Italy and Slovakia",
-      "price": "160 kr (CBS Students)",
-      "image": "images/natty.png",
-      "signupUrl": "https://billetto.dk/e/natural-wine-tasting-billetter-1901016",
-      "soldOut": false
-    },
-    {
       "title": "Unique Winemakers Tasting with Weingüter Wegeler​",
-      "date": "2026-05-28",
-      "time": "time TBA",
-      "location": "CBS, Auditorium TBA",
+      "date": "2026-05-29",
+      "time": "17:00",
+      "location": "CBS, Kilen, Kilevej 14, 2000 Frederiksberg",
       "description": "An exclusive tasting of unique wines from the renowned Weingüter Wegeler, featuring Rieslings and Spätburgunders.",
-      "price": "price TBA",
+      "price": "150 kr",
       "image": "images/wegeler.png",
-      "signupUrl": "https://billetto.dk/users/cbs-wine",
+      "signupUrl": "https://billetto.dk/e/weingut-wegeler-wine-tasting-billetter-1921007",
       "soldOut": false
     },
     {
