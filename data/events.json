@@ -1,5 +1,16 @@
 {
   "events": [
+     {
+      "title": "First Pop of the Semester",
+      "date": "2026-10-08",
+      "time": "17:00",
+      "location": "CBS, Ovnhallen Foyer, Porcelænshaven 24A, 2000 Frederiksberg",
+      "description": "Join CBS Wine for a more casual evening exploring Champagne, Cava, Crémant and Pét-Nat. Meet fellow student, enjoy great wine and discover what makes each style unique.",
+      "price": "99 kr",
+      "image": "images/Bobler.jpg",
+      "signupUrl": "https://orbi.io/dk/en/events/first-pop-of-the-semester.iB2M7O2PaxGqkmph/carts/new?step=tickets",
+      "soldOut": false
+    },
     {
       "title": "Unique Winemakers Tasting with Weingüter Wegeler​",
       "date": "2026-05-29",
