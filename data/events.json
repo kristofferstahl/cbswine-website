@@ -1,6 +1,17 @@
 {
   "events": [
     {
+      "title": "Pinot After Hours",
+      "date": "2026-11-18",
+      "time": "17:00",
+      "location": "CBS, Ovnhallen Foyer, Porcelænshaven 24A, 2000 Frederiksberg",
+      "description": "Join CBS Wine for a casual evening exploring this beloved grape. Taste your way through four wines from Burgundy, Alsace and the Pfalz alongside fellow students",
+      "price": "99 kr.",
+      "image": "images/PinotAfterHours.jpg",
+      "signupUrl": "https://orbi.io/l/z30kw7xGL8jBji9B",
+      "soldOut": false
+    },
+    {
       "title": "First Pop of the Semester",
       "date": "2026-10-08",
       "time": "17:00",
@@ -9,7 +20,7 @@
       "price": "99 kr.",
       "image": "images/Bobler.jpg",
       "signupUrl": "https://orbi.io/dk/en/events/first-pop-of-the-semester.iB2M7O2PaxGqkmph/carts/new?step=tickets",
-      "soldOut": false
+      "soldOut": true
     },
     {
       "title": "Unique Winemakers Tasting with Weingüter Wegeler​",
