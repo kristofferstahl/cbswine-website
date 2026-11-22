@@ -1,6 +1,13 @@
 {
   "partners": [
     {
+      "name": "Spiegelau",
+      "type": "Official Glassware Partner of CBS wine",
+      "description": "Spiegelau is a historic German glassware brand renowned for crafting durable, fine crystal wine glasses that elevate the tasting experience.",
+      "logo": "images/Spiegelau Partner Logos-selection_transparent.png",
+      "website": "https://spiegelau.dk/"
+    },
+    {
       "name": "Laudrup Vin",
       "type": "Wine Importer and Online Store",
       "description": "Family-owned Danish importer specializing in artisanal wines",
