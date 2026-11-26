@@ -36,6 +36,13 @@
       "website": "https://cruvin.dk"
     },
     {
+      "name": "Smalle Vine",
+      "type": "Wine Importer and Store",
+      "description": "Wine importer and store, located close to CBS on Smallegade",
+      "logo": "images/smalle.png",
+      "website": "https://smallevine.dk"
+    },
+    {
       "name": "Champagne Guru",
       "type": "Wine Importer and Store",
       "description": "Champagne and wine importer, hosting mainly champagne-focused events",
