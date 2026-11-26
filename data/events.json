@@ -1,6 +1,17 @@
 {
   "events": [
     {
+      "title": "Holiday Wine Tasting",
+      "date": "2026-12-03",
+      "time": "17:00",
+      "location": "CBS, Dalgas Have Common Room, Dalgas Have 15, 2000 Frederiksberg",
+      "description": "Join CBS Wine and Smalle Vine on December 3 for our final tasting of the year. This time, we’re pouring five glasses of wine, and you'll learn what to consider when choosing wines for your favorite Christmas dishes.",
+      "price": "99 kr.",
+      "image": "images/julevin.jpg",
+      "signupUrl": "https://orbi.io/l/QgdG9sPE5yl1Z8bj",
+      "soldOut": false
+    },
+    {
       "title": "Pinot After Hours",
       "date": "2026-11-18",
       "time": "17:00",
@@ -9,7 +20,7 @@
       "price": "99 kr.",
       "image": "images/PinotAfterHours.jpg",
       "signupUrl": "https://orbi.io/l/z30kw7xGL8jBji9B",
-      "soldOut": false
+      "soldOut": true
     },
     {
       "title": "First Pop of the Semester",
